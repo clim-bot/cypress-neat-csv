@@ -32,7 +32,7 @@ jobs:
         run: sleep 10
 
       - name: Check if the server is running
-        run: curl -I http://localhost:3000/health
+        run: curl -I http://localhost:3000/api/health
 
       - name: Run Cypress tests
         uses: cypress-io/github-action@v6
