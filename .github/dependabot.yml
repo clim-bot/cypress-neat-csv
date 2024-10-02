@@ -1,0 +1,17 @@
+version: 2
+updates:
+  # Check for updates in the npm ecosystem (Node.js projects)
+  - package-ecosystem: "npm"  # Or "yarn" if you are using Yarn
+    directory: "/"  # Location of the package.json file (root in this case)
+    schedule:
+      interval: "weekly"  # Options: daily, weekly, monthly
+    # Optionally ignore specific dependencies if needed
+    # ignore:
+    #   - dependency-name: "example-dependency"
+    #     versions: ["1.x", "2.x"]
+
+  # Example for other ecosystems (like GitHub Actions)
+  - package-ecosystem: "github-actions"
+    directory: "/"  # Location of the GitHub Actions workflows
+    schedule:
+      interval: "weekly"

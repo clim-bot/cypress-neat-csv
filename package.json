@@ -1,0 +1,28 @@
+{
+  "name": "cypress-neat-csv",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "csv",
+    "sqlite"
+  ],
+  "author": "Christopher Lim",
+  "license": "ISC",
+  "description": "Cypress testing framework with Node.js, SQLite, and CSV integration",
+  "dependencies": {
+    "express": "^4.21.0",
+    "json2csv": "^6.0.0-alpha.2",
+    "neat-csv": "^5.2.0",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "cypress": "^13.15.0"
+  }
+}
