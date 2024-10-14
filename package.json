@@ -16,7 +16,7 @@
   "license": "ISC",
   "description": "Cypress testing framework with Node.js, SQLite, and CSV integration",
   "dependencies": {
-    "express": "^4.21.0",
+    "express": "^4.21.1",
     "json2csv": "^6.0.0-alpha.2",
     "neat-csv": "^5.2.0",
     "sequelize": "^6.37.3",
