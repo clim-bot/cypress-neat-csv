@@ -18,7 +18,7 @@
   "dependencies": {
     "express": "^4.21.0",
     "json2csv": "^6.0.0-alpha.2",
-    "neat-csv": "^5.2.0",
+    "neat-csv": "^7.0.0",
     "sequelize": "^6.37.3",
     "sqlite3": "^5.1.7"
   },
